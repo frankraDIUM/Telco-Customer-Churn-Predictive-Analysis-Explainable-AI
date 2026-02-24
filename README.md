@@ -27,7 +27,7 @@ The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing
 - **Split**: 80/20 train-test (random_state=42)
 
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/class_imbalance.png" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/class_imbalance.png" width="60% />
 </p>
 
 <p align="center">
