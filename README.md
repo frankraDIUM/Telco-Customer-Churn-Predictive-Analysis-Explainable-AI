@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on predicting customer attrition (churn) for a telecommunications company. By leveraging machine learning and **Explainable AI (SHAP)**, we identify high-risk customers and uncover the specific service and contractual factors driving their departure.
+This project focuses on predicting customer attrition (churn) for a telecommunications company. By leveraging machine learning and **Explainable AI (SHAP)**, I identify high-risk customers and uncover the specific service and contractual factors driving their departure.
 
 The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing a robust engine for proactive retention strategies.
 
