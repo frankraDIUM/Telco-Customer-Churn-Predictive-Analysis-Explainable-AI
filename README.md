@@ -26,6 +26,19 @@ The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing
   - SMOTE applied only to training data
 - **Split**: 80/20 train-test (random_state=42)
 
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/class_imbalance.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/EDA_visualizations.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/tenure_distribution.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/monthly_charges.png" width="45%" />
+</p>
+
 ### 2. Modeling & Optimization
 
 **Models trained**:
@@ -41,6 +54,16 @@ The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing
   - `min_samples_leaf=1`
   - `class_weight='balanced_subsample'`
 
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/LR_tuned.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/RF_tuned.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_LR.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_RF.png" width="45%" />
+</p>
+
 **Final test performance** (1409 samples):
 
 | Model                        | Accuracy | ROC AUC | Precision (1) | Recall (1) | F1 (1) |
@@ -49,6 +72,10 @@ The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing
 | Tuned Random Forest          | **77.9%**| 0.834   | **0.58**      | 0.60       | 0.59   |
 
 Both models significantly outperform the no-skill baseline (73.5% accuracy, 0.500 AUC).
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/model_comparison.png" />
+</p>
 
 ### 3. Explainability (SHAP)
 
@@ -63,6 +90,11 @@ Both models significantly outperform the no-skill baseline (73.5% accuracy, 0.50
   - Fiber optic (when = 1) → mostly positive SHAP → higher churn risk
   - Low tenure → positive SHAP (risk), high tenure → negative SHAP (protective)
   - Two-year contract & dependents → protective when present
+
+<p align="center">
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_summary_plot.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_beeswarm_plot.png" width="45%" />
+</p>
 
 ## Business Insights (SHAP Analysis)
 
