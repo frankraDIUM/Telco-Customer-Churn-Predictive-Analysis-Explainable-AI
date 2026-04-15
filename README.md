@@ -55,13 +55,13 @@ The final model achieves an **Area Under the Curve (AUC) of $0.838$**, providing
   - `class_weight='balanced_subsample'`
 
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/LR_tuned.png" width="45%" />
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/RF_tuned.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/LR_tuned.png" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/RF_tuned.png" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_LR.png" width="45%" />
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_RF.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_LR.png" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/feature_importance_RF.png" />
 </p>
 
 **Final test performance** (1409 samples):
@@ -92,8 +92,8 @@ Both models significantly outperform the no-skill baseline (73.5% accuracy, 0.50
   - Two-year contract & dependents → protective when present
 
 <p align="center">
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_summary_plot.png" width="45%" />
-  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_beeswarm_plot.png" width="45%" />
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_summary_plot.png"/>
+  <img src="https://github.com/frankraDIUM/Telco-Customer-Churn-Predictive-Analysis-Explainable-AI/blob/main/shap_beeswarm_plot.png"/>
 </p>
 
 ## Business Insights (SHAP Analysis)
